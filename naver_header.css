@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1600px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_inner {
+    margin-top: 20px;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_main {
+    display: flex;
+    justify-content: center;
+}
+
+.search_area {
+    width: 400px;
+    height: 50px;
+    border: 1px solid green;
+    border-radius: 40px;
+
+    display: flex;
+    padding: 0 10px;
+}
+
+.main_logo{
+    flex: 0 0 30px;
+
+    display: flex;
+    align-items: center;
+}
+#main_search{
+    flex: 1 0 0;
+}
+.search_button{
+    flex: 0 0 30px;
+
+    display: flex;
+    align-items: center;
+}
+.search_icon{
+    color: green;
+}
+
+.search_area input{
+    outline: none;
+    border: none;
+}
+.shortcut_area{
+    display: flex;
+    justify-content: center;
+
+}
+.shortcut_container {
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 80px;
+}
+.shortcut_icons {
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.shortcut_item{
+    /* border: 1px solid blueviolet; */
+    text-align: center;
+
+    width: 40px;
+    font-size: 13px;
+}
+
+.shortcut_item a{
+    text-decoration: none;
+    color: black;
+}
+.shortcut_icon{
+    border: 1px solid black;
+    border-radius: 20%;
+
+    padding: 5px;
+}
+
+main, aside {
+    display: inline-block;
+}
+main {
+    width: 65%;
+    box-sizing: border-box;
+}
+aside {
+    width: 30%;
+    box-sizing: border-box;
+}
+.body_wrapper{
+    display: flex;
+}

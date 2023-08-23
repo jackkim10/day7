@@ -1,0 +1,141 @@
+.banner_main {
+    /* padding: 20px; */
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+}
+.banner_main a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.news_stand_area{
+    padding: 20px;
+    
+}
+.news_stand_container {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+.news_stand_menu .selected{
+    font-weight: 600;
+}
+.news_stand_submenu {
+    margin-top: 10px;
+    background-color: grey;
+    padding: 10px;
+}
+.news_stand_submenu a{
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+.news_stand_span{
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 1px solid gray;
+    background-color: gray;
+    grid-gap: 1px;
+
+    border-radius: 5px;
+    
+}
+.news_stand_item{
+    position: relative;
+    text-align: center;
+    height: 50px;
+    vertical-align: center;
+    background-color: white;
+    
+}
+.news_name{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.news_hover{
+    position: absolute;
+    background-color: lightblue;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.news_hover:hover {
+    opacity: 1;
+}
+
+/* 쇼핑 */
+
+.shopping_area{
+    padding: 20px;
+}
+.shopping_container{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.shopping_menu .selected{
+    font-weight: 600;
+}
+.shopping_submenu{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    
+    background-color: lightgray;
+
+}
+.shopping_submenu_gs{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.shopping_below{
+    display: flex;
+}
+.shopping_span{
+    width: 75%;
+    position: relative;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: 1px solid gray;
+    background-color: gray;
+    grid-gap: 1px;
+
+    border-radius: 5px;
+}
+.shopping_item{
+    margin: 10px;
+}
+.shopping_item img{
+    height: 150px;
+    width: 100px;
+    border-radius: 5px;
+}
+.shopping_widget{
+    width: 25%;
+    padding: 20px;    
+}
+.shopping_widget_market{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.shopping_widget_first{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.shopping_widget_ad{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
