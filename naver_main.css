@@ -131,9 +131,8 @@
     border: 1px solid gray;
     border-radius: 5px;
 }
-.shopping_widget_first{
-    border: 1px solid gray;
-    border-radius: 5px;
+.shopping_widget_market_first{
+    display: flex;
 }
 .shopping_widget_ad{
     border: 1px solid gray;
